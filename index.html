@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+            <h1>DESCUBRA O HERÓI</h1>
+        </header>
+
+        <section class="first">
+            <div class="area-top">
+                QUAL HERÓI DA MARVEL ESTA ABAIXO?
+            </div>
+            <div class="area-bottom">
+                <input class="input" type="text" name="hero" placeholder="Digite  o nome do herói" required>
+                <button onclick="search()">VERIFICAR</button>
+            </div>
+        </section>
+
+        <section class="description">
+            <div class="desc">
+                Tentativas: <span class="attemps">0</span>
+            </div>
+            <br>
+            <div class="dicas">
+                Dica!!!<br>
+                A primeira letra do personagem é: <span class="dica"></span>
+            </div>
+        </section>
+
+        <button class="reset" onclick="resetGame()">Recomeçar</button>
+
+        <footer>
+            &copy; Lucas Abner
+        </footer>
+
+    <script src="./hero.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

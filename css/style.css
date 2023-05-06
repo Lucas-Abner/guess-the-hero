@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/13246954/pexels-photo-13246954.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #5c065c;
+    font-weight: bold;
+}
+
+header{
+    font-size: 30px;
+    text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.first{
+    width: 450px;
+    color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f14141;
+}
+
+.area-top{
+    margin: 20px 0 30px;
+    font-size: 20px;
+
+}
+
+.area-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-bottom input{
+    margin-bottom: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.area-bottom button{
+    width: 110px;
+    margin-bottom: 20px;
+    padding: 11px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #5c065c;
+    background: transparent;
+    color: #5c065c;
+    box-shadow: 0 0 5px #5c065c;
+    cursor: pointer;
+}
+
+.description{
+    width: 450px;
+    background-color: #f14141;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fafafa;
+    display: none;
+    font-size: 21px;
+}
+
+.dica{
+    font-size: 26px;
+}
+
+.reset{
+    width: 110px;
+    padding: 11px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #5c065c;
+    border: 0;
+    color: #fafafa;
+    cursor: pointer;
+    display: none;
+    margin: 10px auto 10px auto;
+}
+
+footer{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #fafafa;
+}
